@@ -1,0 +1,269 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "name": "name-surname",
+      "label": "Nome e Cognome Paziente",
+      "required": true
+    },
+    {
+      "type": "radio",
+      "name": "gender",
+      "label": "Genere",
+      "choices": [
+        "Maschio",
+        "Femmina"
+      ],
+      "required": true
+    },
+    {
+      "type": "date",
+      "name": "date-of-birth",
+      "label": "Data di Nascita",
+      "required": true
+    },
+    {
+      "type": "select",
+      "name": "marital-status",
+      "label": "Stato Civile",
+      "choices": [
+        "Celibe/Nubile",
+        "Sposato/a",
+        "Divorziato/a",
+        "Vedovo/a"
+      ],
+      "required": true
+    },
+    {
+      "type": "select",
+      "name": "educational-stage",
+      "label": "Scolarità",
+      "choices": [
+        "Scuola Elementare",
+        "Scuola Media",
+        "Scuola Superiore",
+        "Laurea Triennale",
+        "Laurea Magistrale",
+        "Dottorato"
+      ],
+      "required": true
+    },
+    {
+      "type": "tel",
+      "name": "telephone",
+      "label": "Telefono",
+      "required": true
+    },
+    {
+      "type": "email",
+      "name": "email",
+      "label": "Email",
+      "required": true
+    },
+    {
+      "type": "date",
+      "name": "date-of-first-visit",
+      "label": "Data Prima Visita",
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "therapist",
+      "label": "Nome Cognome Terapeuta",
+      "required": true
+    },
+    {
+      "type": "date",
+      "name": "date-of-psychodiagnostics-assessment",
+      "label": "Data Valutazione Psicodiagnostica",
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "name-surname-evaluator",
+      "label": "Nome Cognome Valutatore",
+      "required": true
+    },
+    {
+      "type": "select",
+      "name": "medication",
+      "label": "Farmaci",
+      "choices": [
+        "Nessuno",
+        "Antipsicotici",
+        "Antidepressivi",
+        "Ansiolitici/Ipnotici",
+        "Antipsicotici + Antidepressivi",
+        "Antipsicotici + Ansiolitici/Ipnotici",
+        "Antidepressivi + Ansiolitici/Ipnotici",
+        "Antipsicotici + Antidepressivi + Ansiolitici/Ipnotici",
+        "Altro"
+      ],
+      "required": true
+    },
+    {
+      "type": "radio",
+      "name": "primary-diagnosis",
+      "label": "Diagnosi Primaria",
+      "choices": [
+        "Sì",
+        "No"
+      ],
+      "required": true
+    },
+    {
+      "type": "select",
+      "name": "primary-diagnosis-type",
+      "label": "Diagnosi Primaria",
+      "choices": [
+        "Disturbo Psicotico",
+        "Disturbo Bipolare",
+        "Disturbo Depressivo",
+        "Disturbo d'Ansia Generalizzata",
+        "Disturbo di Panico",
+        "Agorafobia",
+        "Disturbo d'Ansia Sociale",
+        "Fobia Specifica",
+        "Disturbo da sintomi somatici",
+        "Disturbo di ansia da malattia",
+        "Disturbo da Stress Post-Traumatico",
+        "Disturbo da Stress Post-Traumatico Complesso",
+        "Disturbo Ossessivo-Compulsivo",
+        "Disturbo Dissociativo",
+        "Disturbo Paranoide di Personalità",
+        "Disturbo Schizoide di Personalità",
+        "Disturbo Schizotipico di Personalità",
+        "Disturbo Borderline di Personalità",
+        "Disturbo Narcisistico di Personalità",
+        "Disturbo Istrionico di Personalità",
+        "Disturbo Antisociale di Personalità",
+        "Disturbo Evitante di Personalità",
+        "Disturbo Dipendente di Personalità",
+        "Disturbo Ossessivo-Compulsivo di Personalità",
+        "Disturbo Parafilico",
+        "Disturbo del Comportamento Alimentare",
+        "Disturbi correlati a sostanze",
+        "Disturbi correlati ad altre addiction",
+        "Disforia di genere",
+        "Disturbo del sonno-veglia",
+        "Lutto/perdita",
+        "Problemi interpersonali/relazionali",
+        "Altro"
+      ],
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "primary-diagnosis-other",
+      "label": "Diagnosi Primaria (Altro)"
+    },
+    {
+      "type": "radio",
+      "name": "secondary-diagnosis",
+      "label": "Diagnosi Secondaria",
+      "choices": [
+        "Sì",
+        "No"
+      ]
+    },
+    {
+      "type": "select",
+      "name": "secondary-diagnosis-type",
+      "label": "Diagnosi Secondaria",
+      "choices": [
+        "Disturbo Psicotico",
+        "Disturbo Bipolare",
+        "Disturbo Depressivo",
+        "Disturbo d'Ansia Generalizzata",
+        "Disturbo di Panico",
+        "Agorafobia",
+        "Disturbo d'Ansia Sociale",
+        "Fobia Specifica",
+        "Disturbo da sintomi somatici",
+        "Disturbo di ansia da malattia",
+        "Disturbo da Stress Post-Traumatico",
+        "Disturbo da Stress Post-Traumatico Complesso",
+        "Disturbo Ossessivo-Compulsivo",
+        "Disturbo Dissociativo",
+        "Disturbo Paranoide di Personalità",
+        "Disturbo Schizoide di Personalità",
+        "Disturbo Schizotipico di Personalità",
+        "Disturbo Borderline di Personalità",
+        "Disturbo Narcisistico di Personalità",
+        "Disturbo Istrionico di Personalità",
+        "Disturbo Antisociale di Personalità",
+        "Disturbo Evitante di Personalità",
+        "Disturbo Dipendente di Personalità",
+        "Disturbo Ossessivo-Compulsivo di Personalità",
+        "Disturbo Parafilico",
+        "Disturbo del Comportamento Alimentare",
+        "Disturbi correlati a sostanze",
+        "Disturbi correlati ad altre addiction",
+        "Disforia di genere",
+        "Disturbo del sonno-veglia",
+        "Lutto/perdita",
+        "Problemi interpersonali/relazionali",
+        "Altro"
+      ]
+    },
+    {
+      "type": "text",
+      "name": "secondary-diagnosis-other",
+      "label": "Diagnosi Secondaria (Altro)"
+    },
+    {
+      "type": "radio",
+      "name": "tertiary-diagnosis",
+      "label": "Diagnosi Terziaria",
+      "choices": [
+        "Sì",
+        "No"
+      ]
+    },
+    {
+      "type": "select",
+      "name": "tertiary-diagnosis-type",
+      "label": "Diagnosi Terziaria",
+      "choices": [
+        "Disturbo Psicotico",
+        "Disturbo Bipolare",
+        "Disturbo Depressivo",
+        "Disturbo d'Ansia Generalizzata",
+        "Disturbo di Panico",
+        "Agorafobia",
+        "Disturbo d'Ansia Sociale",
+        "Fobia Specifica",
+        "Disturbo da sintomi somatici",
+        "Disturbo di ansia da malattia",
+        "Disturbo da Stress Post-Traumatico",
+        "Disturbo da Stress Post-Traumatico Complesso",
+        "Disturbo Ossessivo-Compulsivo",
+        "Disturbo Dissociativo",
+        "Disturbo Paranoide di Personalità",
+        "Disturbo Schizoide di Personalità",
+        "Disturbo Schizotipico di Personalità",
+        "Disturbo Borderline di Personalità",
+        "Disturbo Narcisistico di Personalità",
+        "Disturbo Istrionico di Personalità",
+        "Disturbo Antisociale di Personalità",
+        "Disturbo Evitante di Personalità",
+        "Disturbo Dipendente di Personalità",
+        "Disturbo Ossessivo-Compulsivo di Personalità",
+        "Disturbo Parafilico",
+        "Disturbo del Comportamento Alimentare",
+        "Disturbi correlati a sostanze",
+        "Disturbi correlati ad altre addiction",
+        "Disforia di genere",
+        "Disturbo del sonno-veglia",
+        "Lutto/perdita",
+        "Problemi interpersonali/relazionali",
+        "Altro"
+      ]
+    },
+    {
+      "type": "text",
+      "name": "tertiary-diagnosis-other",
+      "label": "Diagnosi Terziaria (Altro)"
+    }
+  ]
+}
